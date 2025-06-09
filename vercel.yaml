@@ -1,0 +1,12 @@
+- name: Install Dependencies
+  run: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+
+# Optional only if you really need execution rights
+- name: Set Execute Permissions
+   run: chmod +x bgmi
+
+# Optional: run your app for CI testing (not for Vercel deploy)
+ - name: Run Application
+   run: python royal.py
