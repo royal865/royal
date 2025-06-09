@@ -5,7 +5,7 @@
 
 # Optional only if you really need execution rights
 - name: Set Execute Permissions
-   run: chmod +x bgmi
+   run: chmod +x THAKUR
 
 # Optional: run your app for CI testing (not for Vercel deploy)
  - name: Run Application
