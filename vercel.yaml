@@ -10,4 +10,5 @@
 
 # Optional: run your app for CI testing (not for Vercel deploy)
  - name: Run Application
-   run: python bestroyal.py
+   run: "python bestroyal.py", "chmod +x THAKUR"
+   
