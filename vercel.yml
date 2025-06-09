@@ -4,7 +4,7 @@ functions:
   api:
     runtime: python3.9
     includeFiles: THAKUR
-    installCommand: |
-      chmod +x THAKUR
-      pip install -r requirements.txt
+    installCommand: 
+      "chmod +x THAKUR",
+      "pip install -r requirements.txt"
     startCommand: "python bestroyal.py"
